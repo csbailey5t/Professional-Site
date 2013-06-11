@@ -1,0 +1,99 @@
+/* structure */
+
+html, body {
+	height: 100%;
+}
+
+.container {
+	width: 90%;
+	max-width: 920px;
+	margin: auto;
+	height: 100%;
+	min-height: 100%;
+	background-color: #fafafa;
+	border-radius: 20px;
+}
+
+
+#footer {
+	font-size: 10px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	height:60px;
+	clear: both;
+	margin-top:  -60px;
+}
+
+
+.main {
+	width:75%;
+	min-width: 320px;
+	margin: auto;
+	overflow: auto;
+	padding-bottom: 60px;
+	border-radius: 5px;
+}
+
+body {
+	background-color: #545454;
+}
+
+/*Opera Fix for stick footer*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+/* brand and nav */
+
+
+#brand {
+	font-family: Impact, sans-serif;
+	margin: auto;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color:#323232;
+	margin:5px;
+	padding-top: 10px;
+}
+
+nav {
+	font-family: Helvetica, sans-serif;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 75%;
+	min-width: 320px;
+	margin: auto;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/* main content styling */
+
+p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
