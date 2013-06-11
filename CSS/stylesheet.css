@@ -10,7 +10,7 @@ html, body {
 	margin: auto;
 	height: 100%;
 	min-height: 100%;
-	background-color: #fafafa;
+	background-color: #ffffff;
 	border-radius: 20px;
 }
 
@@ -35,7 +35,7 @@ html, body {
 }
 
 body {
-	background-color: #545454;
+	background-color: #ffffff;
 }
 
 /*Opera Fix for stick footer*/
